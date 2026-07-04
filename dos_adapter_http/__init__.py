@@ -19,7 +19,7 @@ def http_request(method, url, body=None) -> str:
 
 # The tool registry + per-tool capability specs (capability = "tool:<name>").
 TOOLS = {"http_request": http_request}
-SPECS = {"http_request": {"capability": "tool:http_request"}}
+SPECS: dict[str, dict[str, Any]] = {"http_request": {"capability": "tool:http_request"}}
 
 
 def governed_tools(governor: Any) -> dict[str, Any]:
