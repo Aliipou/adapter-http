@@ -1,5 +1,7 @@
 # adapter-http
 
+**Live (graph):** [https://ali-adapter-http.vercel.app](https://ali-adapter-http.vercel.app)
+
 Decision OS / AuthGate **execution adapter** for generic HTTP/REST. It exposes an
 outbound HTTP request as a **governed tool**: the request is the effect *behind* a
 Policy Enforcement Point and runs only when the `decision-os-min` kernel
